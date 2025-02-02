@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/2299a05217.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Big Back Eateries</title>
+    <title>Big Back Recipes</title>
 </head>
 
 <!-- Navbar: Dark Moss Green #606C38
@@ -14,48 +15,190 @@ Navbar Text: Cornsik: #FEFAE0
 Background: Earth Yellow #DDA15E
 Text Main: #151515
 That One part in the Home Section: Pakistan Green #283618
-Recpe Page Background: #BC6C25 -->
+Recpe Page Background: #BC6C25
+Slate #C7C7A6-->
 
 
 <body class="body">
     <!-- NAVBAR -->
-    <header class="fixed  top-0 w-full ">
-        <nav class=" pl-20 px-100 flex justify-between items-center ">
+    <header class="flex justify-between bg-[#136F63] border-b border-solid border-black">
+        <div class="nav-img">
+            <a href="#home"><img src="assets/logoimage3.png" alt="" class="h-25 w-40 rounded-md bg-white mx-10"></a>
+        </div>
+        <nav class="navbar">
             <div>
-                <a href="#home"><img src="assets/logoimage2.png" alt="" class="w-40 h-20"></a>
-            </div>
-            <div class="place-items-center">
-                <ul class="hidden md:flex space-x-30 text-lg">
-                    <li class="border-none mr-4 my-9 mx-10"><a href="#home" class="anchor1">Home</a>
+                <ul class="nav-ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <a href="#recipe">Recipes</a>
+                        <ul>
+                            <li><a href="#0">Popcorn Chicken</a></li>
+                            <li><a href="#0">Butter Chicken</a></li>
+                            <li><a href="#0">Protein Wraps</a></li>
+                            <li><a href="#0">Stir Fry Beef</a></li>
+                            <li><a href="#0">Fried Noodles</a></li>
+                        </ul>
                     </li>
-                    <li class="border-none mr-4 my-9 mx-10"><a href="#about" class="anchor1">About</a>
-                    </li>
-                    <li class="border-none mr-4 py-9 px-10"><a href="#recipe" class="anchor1">Recipes</a>
-                    </li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
-    </header>
-    <!-- HOME SECTION -->
-    <section id="home" class="flex justify-between items-center m-10 mt-30 px-10 py-5  bg-[#283618] rounded-xl">
-        <img src="assets/mainimage.jpg" alt="" class="float-right w-150 h-120 border-solid border-2 border-[#FEFAE0]">
-        <div class="bg-[#283618] text-lg text-[#FEFAE0] mr-20 ml-10 pr-15 pl-15 pb-10 mt-5 pt-10">
-            <p class="text-lg font-medium text-[#BC6C25]">Take Your Culinary Creations to the Next Level</p>
-            <h1 class="text-3xl text-[#FEFAE0] font-semibold font-serif pt-5 pb-10 border-solid border-b-2 border-[#FEFAE0]">A Kitchen Adventure Awaits.</h1>
-            <p class="pt-5 text-[#FEFAE0] font-mono">There are endless flavors to explore, but only the finest ingredients create truly exceptional dishes.
-                Join the ranks of culinary masters with our expert recipes and kitchen-ready tips.</p>
-                <div class="mt-10 border-solid border-2 bg-[#151515] border-[#151515] px-5 py-3 text-center">
-                    <button><a href="#recipe">Get Started Now!</a></button>
-                </div>
+        <div class="pt-5">
+            <ul class="nav-contact">
+                <li><a href="https://www.instagram.com/absolutelyfried._/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@genuinelysuckatnames?is_from_webapp=1&sender_device=pc/"
+                        target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://x.com/00Luffy1" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
         </div>
-    </section>
+    </header>
+
+    <!-- HOME SECTION -->
+    <main id="home" class=" ">
+        <div class="bg-[assets\premium_photo-1670601440146-3b33dfcd7e17.avif]">
+
+        </div>
+        <section
+            class="flex justify-between items-center my-20 mx-5 px-10 py-10  bg-black rounded-md shadow-white shadow-xl">
+            <img src="assets/mainimage.jpg" alt=""
+                class="float-right w-150 h-120 border-solid border-2 border-[#FEFAE0]">
+            <div class="text-lg text-[#FEFAE0] mr-20 ml-10 pr-15 pl-15 pb-10 mt-5 pt-10">
+                <p class="text-lg font-medium text-[#BC6C25]">Take Your Culinary Creations to the Next Level</p>
+                <h1
+                    class="text-3xl text-[#FEFAE0] font-semibold font-serif pt-5 pb-10 border-solid border-b-2 border-[#FEFAE0]">
+                    A Kitchen Adventure Awaits.</h1>
+                <p class="pt-5 text-[#FEFAE0] font-mono">There are endless flavors to explore, but only the finest
+                    ingredients create truly exceptional dishes.
+                    Join the ranks of culinary masters with our expert recipes and kitchen-ready tips.</p>
+                <div
+                    class="mt-10 border-solid border-2 bg-[#151515] border-[#151515] px-5 py-3 text-center text-xl font-thin font-Times  rounded-xl transition duration-250 hover:border-2 hover:bg-[#FEFAE0] hover:border-[#FEFAE0] hover:text-[#151515]">
+                    <button class="button1"><a href="#recipe">Get Started Now!</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <!-- CLASS SECTION -->
     <section id="about" class="about-section">
-
+        <div
+            class="bg-[url('https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover flex justify-left items-center h-200 mt-20 ">
+            <div>
+                <div class=" mr-90 ml-10 pt-20 pr-4 pl-15 mt-20 text-yellow-200 bg-black shadow-black shadow-xl">
+                    <h1 class="text-8xl border-l-4 pl-4 border-yellow-200">About Us</h1>
+                    <div class="p-10 px-20">
+                        <p class="text-xl opacity-100 pb-5">Welcome to our kitchen! We’re a team of passionate food
+                            lovers and experienced chefs
+                            dedicated to
+                            bringing you mouthwatering recipes that are as easy to follow as they are delicious to
+                            taste.
+                            From
+                            comforting classics to innovative twists, we believe cooking should be both fun and
+                            rewarding.
+                        </p>
+                        <p class=" border-b-2 border-t-2 pt-5 pb-5">Our mission is simple: to inspire home cooks of all
+                            skill levels to create meals that bring
+                            people
+                            together. Whether you’re a seasoned pro or just starting out, we’ve got something for
+                            everyone.
+                            Each
+                            recipe is crafted with love, tested for flavor, and designed to help you feel confident in
+                            the
+                            kitchen.
+                        </p>
+                        <div class="pt-5">
+                            <p
+                                class="bg-white text-3xl text-black text-center py-2 border-solid border-yellow-500 border-5 rounded-md">
+                                Taste buds pleased: 200
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- RECIPE SECTION -->
     <section id="recipe" class="recipe-section">
-
+        <div class="text-8xl p-10 pt- mt-20 m-10 text-white border-b-2 border-black">
+            <h1 class=" border-l-4 border-black pl-15">Recipes</h1>
+        </div>
+        <div class="grid grid-cols-3 m-5">
+            <div class="bg-white rounded-md p-5 mr-5">
+                <img src="assets/koreanpopcornchicken2.jpeg" alt="">
+                <h1>Popcorn Chicken</h1>
+                <ul>
+                    <li>Chicken</li>
+                    <li>Flour</li>
+                    <li>Soy Sauce</li>
+                    <li>Tomato Paste</li>
+                    <li>Ketchup</li>
+                    <li>Chicken Cubes</li>
+                    <li>Various Spices</li>
+                </ul>
+                <p>Popcorn Chicken is a crispy, bite-sized snack coated in a sweet, spicy glaze. This crunchy,
+                    flavor-packed treat combines the perfect balance of heat, sweetness, and savory goodness, making it
+                    an irresistible appetizer or party dish.</p>
+            </div>
+            <div>
+                <img src="assets/butterchicken1.jpeg" alt="">
+                <h1>Butter Chicken</h1>
+                <ol>
+                    <li>Onions</li>
+                    <li>Garilic</li>
+                    <li>Yoguhrt</li>
+                    <li>Tomato Paste</li>
+                    <li>Cashew Nuts</li>
+                    <li>Various Spices</li>
+                </ol>
+                <p>Butter Chicken is a creamy, flavorful dish with tender chicken in a rich, spiced tomato sauce. It’s a
+                    comforting classic that’s both indulgent and delicious.</p>
+            </div>
+            <div>
+                <img src="assets/wrap1.jpeg" alt="">
+                <h1>Protein Wraps</h1>
+                <ul>
+                    <li>Chicken/Beef</li>
+                    <li>Sweet Chilli</li>
+                    <li>Tortillas</li>
+                    <li>Honey (optional)</li>
+                    <li>Lettuce</li>
+                </ul>
+                <p>Wraps are a versatile, handheld meal filled with fresh ingredients, proteins, and flavorful sauces,
+                    all wrapped up in a soft tortilla. Quick, customizable, and perfect for any occasion!</p>
+            </div>
+        </div>
+        <div class="flex items-center justify-between">
+            <div>
+                <img src="assets/friedbeef2.jpeg" alt="">
+                <h1>Fried Beef</h1>
+                <ul>
+                    <li>Beef</li>
+                    <li>Flour</li>
+                    <li>Honey</li>
+                    <li>Tomato Paste</li>
+                    <li>Various Spices</li>
+                </ul>
+                <p>BBQ Fried Beef features tender, juicy beef coated in a crispy, flavorful crust, then tossed in a
+                    smoky, tangy BBQ sauce. It’s the perfect combination of crunch, flavor, and boldness in every bite.
+                </p>
+            </div>
+            <div>
+                <img src="assets/friednoodles2.jpeg" alt="">
+                <h1>Fried Noodles</h1>
+                <ul class="pl-10">
+                    <li>Noodles/pasta</li>
+                    <li>Onions</li>
+                    <li>Garlic</li>
+                    <li>Vegetables</li>
+                    <li>Tomato Paste</li>
+                    <li>Various Spices</li>
+                </ul>
+                <p>Fried Noodles are crispy, savory noodles stir-fried with fresh veggies and a burst of seasonings.
+                    Quick, flavorful, and satisfying, it’s a perfect dish for any craving!</p>
+            </div>
+        </div>
     </section>
     <!-- FORM SECTION -->
     <section id="form" class="form-section">
