@@ -1,15 +1,10 @@
-.body {
-    background-color: #FEFAE0;
-    color: #151515;
-}
-
 /* NAVBAR */
 body {
     font-family: 'Lexend Exa', sans-serif;
 }
 
 .navbar {
-    position: fixed;
+    position:absolute;
     margin-top: 10px;
     top: 15px;
     left: 50%;
@@ -133,14 +128,8 @@ body {
     }
 }
 
-/* BUTTON */
-
-.button1 {
-    border-radius: 30%;
-}
 
 /* FOOTER */
-
 footer{
     background-color: #111;
 }
