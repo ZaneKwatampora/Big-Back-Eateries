@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    position: fixed;
+    position: absolute;
     margin-top: 10px;
     top: 15px;
     left: 50%;
