@@ -169,7 +169,6 @@ h2 {
 .left-container {
     flex: 1;
     height: 480px;
-    background-color: teal;
 }
 
 .right-container {
