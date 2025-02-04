@@ -7,7 +7,8 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/2299a05217.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="fried-noodles.css">
-    <title>Popcorn Chicken</title>
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Fried Noodles</title>
 </head>
 
 <body>
@@ -21,9 +22,8 @@
                 <ul class="nav-ul">
                     <li class="nav-ul-li"><a href="index.html">Home</a></li>
                     <li class="nav-ul-li">
-                        <a href="#recipe">Popcorn Chicken</a> 
+                        <a href="#recipe">Fried Noodles</a>
                         <ul>
-                            <li><a href="#ingredients">Ingredients</a></li>
                             <li><a href="#instructions">Instructions</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
                             <li><a href="#review">Leave a Review</a></li>
@@ -31,7 +31,7 @@
                     </li>
                     <li class="nav-ul-li"><a href="contact.html">Contact</a></li>
                 </ul>
-            </div> 
+            </div>
         </nav>
         <div class="pt-5">
             <ul class="nav-contact">
@@ -46,33 +46,112 @@
     </header>
 
     <!-- RECIPE SECTION -->
-     <section id="recipe">
-        <div class="main-image">
-            <img src="assets/friednoodles1.jpeg" alt="">
-            <ul>
-                <li><i class="fa-solid fa-stopwatch"></i>1 Hour</li>
-                <li><i class="fa-solid fa-person"></i>Serves 5</li>
-            </ul>
+    <section id="recipe" class="pt-10">
+        <div class="about">
+            <div>
+                <img src="assets/friednoodles1.jpeg" alt="" class="about-image">
+            </div>
+            <div class="about-text">
+                <h1 class="text-3xl font-serif font-medium mb-5 pb-3 border-b-2">Fried Noodles</h1>
+                <p class="text-md font-sans pb-3">
+                    Fried Noodles are a savory, satisfying dish made with perfectly crispy noodles stir-fried with a
+                    medley of fresh vegetables and a flavorful blend of seasonings. The noodles are golden and crispy on
+                    the outside, yet tender on the inside, creating a perfect balance of textures. Whether enjoyed as a
+                    main dish or a side, this dish is quick, delicious, and bursting with flavor in every bite. This
+                    specific recipe aims at making it more acceisble to everyone regardless of your social stature.</p>
+                <div class="about-ul">
+                    <ul>
+                        <li><i class="fa-solid fa-stopwatch"></i>15-20mins</li>
+                        <li><i class="fa-solid fa-person"></i>Serves 1</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div>
-            
+        <section id="instructions">
+            <div class=" grid grid-cols-2 mx-10 py-10 md:grid grid-cols-1">
+                <div class="bg-[#DDA15E] mr-10 rounded-md p-5 shadow-black shadow-md  aspect-video">
+                    <h1 class="text-3xl pt-3 border-b-2 border-black font-serif font-medium">Ingredients</h1>
+                    <ul class="pl-2 border-l-2 border-solid ml-5 mt-4 text-lg text-white pt-3 mt-8">
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>Indomie or any noodles of your choice</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>2 tablespoons vegetable oil</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>1 small onion, thinly sliced</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>1 bell pepper, thinly sliced</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>1 carrot, julienned</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>2 cloves garlic, minced</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>2 tablespoons soy sauce</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>Salt and pepper to taste</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>1 teaspoon Paprika</li>
+                        <li class="pb-3"><i class="fa-solid fa-circle pr-3"></i>Green onions (optional, for garnish)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-10 inset-shadow-black inset-shadow-sm mr-10 aspect-video">
+                    <h1 class="text-3xl pt-3 border-b-2 border-black font-serif font-medium">Instructions</h1>
+                    <ol class="pl-2 pt-4">
+                        <li class="border-b-2 border-[#BC6C25] mb-2 text-lg">1. Cook the noodles: Boil the noodles according to the package instructions, then drain and set aside.</li>
+                        <li class="border-b-2 border-[#BC6C25] mb-2 text-lg">2. Prepare the veggies: Heat vegetable oil in a large pan or wok over medium heat. Add the sliced onion, bell pepper, and carrot. Stir-fry for 2-3 minutes until they start to soften but still have a little crunch.</li>
+                        <li class="border-b-2 border-[#BC6C25] mb-2 text-lg">3. Add garlic: Add the minced garlic to the pan and stir-fry for another 30 seconds until fragrant.</li>
+                        <li class="border-b-2 border-[#BC6C25] mb-2 text-lg">4. Fry the noodles: Add the cooked noodles to the pan with the veggies. Stir-fry everything together for about 2-3 minutes, letting the noodles get a little crispy at the edges.</li>
+                        <li class="border-b-2 border-[#BC6C25] mb-2 text-lg">5. Season: Pour in the soy sauce. Toss everything to coat the noodles evenly. Season with salt and pepper to taste.</li>
+                        <li class="border-b-2 border-[#BC6C25] mb-2 text-lg">6. Garnish & Serve: Once the noodles are well-coated and slightly crispy, transfer them to a plate. Garnish with chopped green onions if desired, and serve hot!</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="testimonials">
+        <div class="mt-10 bg-[#BC6C25] pt-5">
+            <!-- <div class=" mb-10 m-5 bg-[#DDA15E] py-5">
+                <p class="text-6xl font-medium font-serif text-black pb-5">Testimonials</p>
+                <p class="font-medium text-black ">I really enjoy, and value feedback of any sort, whether positive
+                    or negative.</p>
+            </div> -->
+            <div class="text-6xl p-10 pt- mt-10 m-10 text-black border-b-2 border-black shadow-black shadow-md bg-[#DDA15E]">
+                <h1 class=" font-serif border-l-4 border-black pl-5 ">Testimonials</h1>
+                <p class="font-medium text-black text-lg pt-5">I really enjoy, and value feedback of any sort, whether positive
+                    or negative.</p>
+            </div>
+
+            <div>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-white" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-2xl font-medium text-white border-b-2 border-white pb-10 border-t-2 pt-10">Absolutely garbage!!! Wouldnt reccomend to a soul living or dead, not even Jesus can save this meal. Way to spicy, too much salt, did NOT feed 1 person.</p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                                <div class="pr-3 font-medium text-white">My Family</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
-        <div class="Ingredients">
-
+    </section>
+    <section id="review" class="review-section">
+        <div class="wrapper">
+            <h3 class="border-b-2 border-black pb-2">Leave a Review</h3>
+            <form action="#">
+                <div class="rating">
+                    <input type="number" name="rating" hidden>
+                    <i class='bx bx-star star' style="--i: 0;"></i>
+                    <i class='bx bx-star star' style="--i: 1;"></i>
+                    <i class='bx bx-star star' style="--i: 2;"></i>
+                    <i class='bx bx-star star' style="--i: 3;"></i>
+                    <i class='bx bx-star star' style="--i: 4;"></i>
+                </div>
+                <textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..."></textarea>
+                <div class="btn-group">
+                    <button type="submit" class="btn submit">Submit</button>
+                    <button class="btn cancel">Cancel</button>
+                </div>
+            </form>
         </div>
-     </section>
-     <section id="ingredients">
-
-     </section>
-     <section id="instructions">
-
-     </section>
-     <section id="testimonials">
-
-     </section>
-     <section id="review">
-
-     </section>
+    </section>
 
 
     <!-- FOOTER SECTION -->
@@ -99,6 +178,8 @@
                 <p>Copyright &copy;2025; Website Designed by <span class="designer">Zane</span></p>
             </div>
     </section>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

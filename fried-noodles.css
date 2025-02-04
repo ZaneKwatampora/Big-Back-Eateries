@@ -1,6 +1,7 @@
 /* NAVBAR */
 body {
     font-family: 'Lexend Exa', sans-serif;
+    background-color: khaki;
 }
 
 .navbar {
@@ -52,7 +53,7 @@ body {
             opacity: 0;
             position: absolute;
             display: block;
-            margin: 12px -80px;
+            margin: 12px -20px;
             padding: 5px;
             background: #DDA15E;
             border: 2px solid black;
@@ -128,6 +129,154 @@ body {
     }
 }
 
+
+/* RECIPE SECTION */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:#DDA15E;
+    border: #151515;
+    box-shadow: 10px 10px 1px black;
+    margin-bottom: 100px;
+}
+
+.about .about-image {
+    height: 550px;
+    width: 5000px;
+    border-radius: 1%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+
+/* REVIEW */
+
+.review-section {
+    background: khaki;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 0.5rem;
+}
+
+
+.wrapper {
+	background: #DDA15E;
+	padding: 2rem;
+	max-width: 576px;
+	width: 100%;
+	border-radius: .75rem;
+	box-shadow: var(--shadow);
+	text-align: center;
+}
+.wrapper h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+.rating {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-gap: .5rem;
+	font-size: 2rem;
+	color: #606C38;
+	margin-bottom: 2rem;
+}
+.rating .star {
+	cursor: pointer;
+}
+.rating .star.active {
+	opacity: 0;
+	animation: animate .5s calc(var(--i) * .1s) ease-in-out forwards;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+
+.rating .star:hover {
+	transform: scale(1.1);
+}
+textarea {
+	width: 100%;
+	background: var(--light);
+	padding: 1rem;
+	border-radius: .5rem;
+	border: none;
+	outline: none;
+	resize: none;
+	margin-bottom: .5rem;
+}
+.btn-group {
+	display: flex;
+	grid-gap: .5rem;
+	align-items: center;
+}
+.btn-group .btn {
+	padding: .75rem 1rem;
+	border-radius: .5rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: .875rem;
+	font-weight: 500;
+}
+.btn-group .btn.submit {
+	background: #BC6C25;
+	color: var(--white);
+}
+.btn-group .btn.submit:hover {
+	background: khaki;
+    color: #151515;
+}
+.btn-group .btn.cancel {
+	background: #BC6C25;
+	color: white;
+}
+.btn-group .btn.cancel:hover {
+	background: khaki;
+    color: #151515;
+}
+
+:root {
+	--yellow: #FFBD13;
+	--blue: #4383FF;
+	--blue-d-1: #3278FF;
+	--light: #F5F5F5;
+	--grey: #AAA;
+	--white: #FFF;
+	--shadow: 8px 8px 30px rgba(0,0,0,.05);
+}
+
+/* body {
+	background: var(--light);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 1rem;
+} */
 
 /* FOOTER */
 footer{
