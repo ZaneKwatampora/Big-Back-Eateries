@@ -215,7 +215,21 @@ footer{
     .footerNav ul li{
         width:100%;
         text-align: center;
-        margin: 10px;
+        margin: 1px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+@media (min-width: 300px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: px;
     }
     .socialIcons a{
         padding: 8px;
